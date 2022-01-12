@@ -1,0 +1,173 @@
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    color: blueviolet;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(250, 8, 250);
+}
+
+.avatur {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media(max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-start {
+    margin-left: 40px;
+}
+
+.info-start h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+
+.bg-green{
+    background: #e5ffe7;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+.bg-blue{
+    background: rgb(201, 231, 255);
+}
+
+.bg-purple{
+    background: rgb(246, 215, 252);
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list li{
+    color: #4e5053;
+    margin-bottom: 5px;
+}
+
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+}
+
+.kurs-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.cont h2 {
+    text-align: center;
+}
+
+.form label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form {
+    width: 50% ;
+    margin-right: 20px;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    
+
+    width: 100%;
+    height: 50px;
+    background: rgba(red, green, blue, alpha);
+}
